@@ -1,0 +1,15 @@
+{
+  "schema_version": "strategy-reference-companion/v1",
+  "edition": "1",
+  "scope": "Original documentation and source links; no runnable agent, source-code or data release",
+  "writeup_url": "https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/writeups/new-writeup-1783092659035",
+  "writeup_body_sha256": "9b00d151ad1635a9269ff79a2c9e1ea1c976084a833418a26d0801b95b505b55",
+  "writeup_access_note": "The owner-account submission was verified; the companion audit received HTTP 404 without authentication. Public access is not established.",
+  "writeup_verified_at_utc": "2026-09-08T14:41:03.613Z",
+  "submitted_agent_archive_sha256": "7605b63b59449618038c7c13b963dfc4e8609a0978610ac7a81f83071d32b7e9",
+  "confirmation_analysis_sha256": "4151471ff0e2ee12710f0490eec65abea612dc2187df3d639e2e8e204db4eae7",
+  "confirmation_design_signature_sha256": "59fbee000b0881f1377f7ae2fe06bbbfb3131a6e9bb28432db3d805dd8e0e7a1",
+  "historical_weight_source_sha256": "40d6c5e25d97249101eeb9b9bf40ad85b751483a0afbefdcd32515c07b52105a",
+  "identity_limit": "Referenced artifacts are retained separately, not distributed by this repository. Hashes establish identity, not correctness or public reproducibility.",
+  "public_files": ["README.md", "REFERENCES.md", "EVALUATION.md", "NOTICE.md", "VERSION.json"]
+}
