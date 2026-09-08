@@ -1,6 +1,6 @@
 {
   "schema_version": "strategy-reference-companion/v1",
-  "edition": "2",
+  "edition": "3",
   "scope": "Original documentation, own local-experiment aggregate summaries and source links; no runnable agent, source-code or raw-data release",
   "writeup_url": "https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/writeups/new-writeup-1783092659035",
   "writeup_body_sha256": "9b00d151ad1635a9269ff79a2c9e1ea1c976084a833418a26d0801b95b505b55",
