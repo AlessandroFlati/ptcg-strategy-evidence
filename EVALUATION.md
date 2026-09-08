@@ -13,6 +13,8 @@ A worked decision's 8/12 rollout score is not the hybrid's complete-game win rat
 
 A pair consists of two complete local games: the submitted hybrid and its exact rule baseline, using the same playable deck, opponent program, random seed and simulator player slot. A shared seed controls the randomization design; differing actions can still produce different trajectories. Slot 0 or 1 identifies simulator player position, not necessarily who takes the first turn.
 
+Both policies retain the baseline's replay-trained action priorities and card-specific rules. The hybrid adds the separate neural proposal, opponent-belief gate and terminal comparison. The measured gain therefore concerns these combined additions; it does not isolate the value of all learning against purely hand-written rules.
+
 The confirmation panel contains 500 pairs: 50 per opponent across ten opponent programs, with 25 pairs in each slot per opponent. That is 500 games per policy, or 1,000 games total. These locally implemented opponents represent 78.0% of a historical collected three-day sample; they are not every real competitor or the entire competition population.
 
 ## Weighted paired estimator

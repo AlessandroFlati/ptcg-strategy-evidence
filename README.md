@@ -22,7 +22,7 @@ Start with the writeup: it contains the complete main report. This optional comp
 
 ## System in brief
 
-The submitted system keeps one Mega Lucario deck. A rule policy proposes an action; an attention network trained to imitate recorded replay choices proposes another. The network scores legal options, not game-winning probabilities. During eligible disagreements, a heuristic model of the opponent must put at least 0.95 of its mass on one of ten reference decks before search runs. That closed set and threshold do not guarantee correct opponent identification.
+The submitted system keeps one Mega Lucario deck. A baseline combining card-specific rules with replay-trained action priorities proposes an action; an attention network trained to imitate recorded replay choices proposes another. The network scores legal options, not game-winning probabilities. During eligible disagreements, a heuristic model of the opponent must put at least 0.95 of its mass on one of ten reference decks before search runs. That closed set and threshold do not guarantee correct opponent identification.
 
 Search compares the two moves in twelve paired hidden-state completions. After the first move, rule policies continue the simulated games to terminal outcomes. Only a strictly higher mean accepts the learned alternative; agreement, ties, ineligible choices and failed comparisons retain the rule action. The reported complete-game evaluation tests this combined system, not the isolated contribution of each component. Later tests of the unchanged submitted system do not retroactively become official competition results.
 
