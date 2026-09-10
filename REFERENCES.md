@@ -27,7 +27,7 @@ Notebook pages are mutable. Consult their version histories for the public resou
 
 ## Further reading, not the submitted algorithm
 
-- Espeholt et al. (2018), [IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures](https://proceedings.mlr.press/v80/espeholt18a.html): context for distributed actor-learner training and V-trace correction. It does not establish a hardware speedup or RL result for the agent described in our submission.
+- Espeholt et al. (2018), [IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures](https://proceedings.mlr.press/v80/espeholt18a.html): context for distributed actor-learner training and V-trace correction. Our separate post-submission implementation and measured local comparison are described in [Learning](LEARNING.md); the paper does not establish our result or a hardware speedup.
 - Brown et al. (2019), [Deep Counterfactual Regret Minimization](https://proceedings.mlr.press/v97/brown19b.html): context for neural regret learning in imperfect-information games. The submitted terminal-search policy is not Deep CFR; this paper supplies neither a convergence guarantee nor measured strength for our system.
 
-The last two entries are optional background for readers considering extensions. They are not additional claimed contributions or substitutes for implementation and evaluation.
+The last two entries are method background. They are not additional claimed contributions or substitutes for implementation and evaluation.

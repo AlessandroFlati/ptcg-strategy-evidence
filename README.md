@@ -6,13 +6,19 @@ An optional reference and evaluation guide for our [Kaggle Strategy submission](
 
 The submission link is access-dependent: our unauthenticated check returned 404. The submission was verified in our account; this repository does not change its visibility. The [competition page](https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy) provides the platform's current entry point.
 
-Start with the writeup: it contains the complete main report. This optional companion helps readers locate original sources and check the arithmetic of its existing local evaluation. It is not an agent release or a runnable reproduction package; no assumption is made about whether judges will consult it.
+Start with the writeup: it contains the complete main report. This optional companion explains the submitted integration, the separate post-submission recurrent learner, and the tests proposed for further development. It also locates original sources and exposes aggregate evaluation arithmetic. It is not an agent release or a runnable reproduction package; no assumption is made about whether judges will consult it.
+
+The current report is **Mega Lucario: Learning Alternatives, Testing Decisions**. [Read the Japanese translation / 日本語訳](WRITEUP_JA.md), the [two explanatory gallery diagrams](GALLERY.md), or the [detailed reading guide and glossaries](GUIDE.md). [VERSION.json](VERSION.json) binds this edition to the submitted English text. The Japanese translation was AI-produced and checked for numerical and semantic alignment; it has not received native-language review, and English remains authoritative.
 
 ## Find the relevant material
 
 | Reader question | Where to look |
 |---|---|
 | Which public baselines does the writeup acknowledge? | [Public baseline references](REFERENCES.md#public-baselines) |
+| What specifically distinguishes our integration from other public methods? | [Contribution and public context](RESEARCH.md#public-context-and-the-specific-integration-claim) |
+| What do the later recurrent-learning results actually compare? | [Architecture, controls and local RL evidence](LEARNING.md) |
+| What would additional compute be used to test? | [Prospective resource and validation programme](ROADMAP.md) |
+| Which game and machine-learning terms need explanation? | [Detailed guide and glossaries](GUIDE.md) |
 | What is the background for attention and replay imitation? | [Method references](REFERENCES.md#method-background) |
 | Can I recalculate the reported improvement and uncertainty? | [Aggregate results and calculation](EVALUATION.md#confirmation-aggregates) |
 | How do twelve simulated worlds differ from 500 game pairs? | [Comparison units](EVALUATION.md#comparison-unit) |
@@ -40,7 +46,7 @@ The submitted entrypoint forces CPU inference and processes worlds serially. Fas
 
 - A reference establishes its own method or origin, not our performance.
 - Public notebook scores and titles describe their authors' material, not a directly comparable benchmark for our entry.
-- The companion does not contain competition data, card assets, replays, copied notebooks, model weights, agent code, or training code.
+- The companion does not contain raw competition data, official card artwork, replays, copied notebooks, model weights, agent code, or training code. Its diagrams are original explanatory schematics.
 - The writeup remains understandable without opening this repository. No result depends on a reader executing external resources.
 - Linked resources may require Kaggle sign-in or acceptance of the competition rules. They are not mirrored here.
 

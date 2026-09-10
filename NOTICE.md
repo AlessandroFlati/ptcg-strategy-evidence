@@ -1,6 +1,6 @@
 # Scope and rights notice
 
-This is participant-authored documentation, aggregate summaries of our own local experiments, and an index of links to original resources. It contains no executable competition code, model weights, training datasets, raw game outcomes or replays, card-data tables, official artwork, simulator binaries, or copied third-party notebooks and discussions.
+This is participant-authored documentation, aggregate summaries of our own local experiments, original explanatory diagrams, an AI-produced Japanese translation of our report, and an index of links to original resources. It contains no executable competition code, model weights, training datasets, raw game outcomes or replays, full card-data tables, official artwork, simulator binaries, or copied third-party notebooks and discussions. Names, simulator identifiers and deck quantities are used to explain the submitted list and its mechanics.
 
 Linked resources remain subject to their respective owners' licenses and access conditions. A link does not grant permission to download, redistribute or reuse its target. Names and titles are used to identify the original resources and competition; no ownership of third-party material or organizer affiliation is asserted.
 

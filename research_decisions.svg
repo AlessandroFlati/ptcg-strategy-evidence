@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="-160 -40 1920 1080" role="img">
+<title>Which learned departures earn deployment?</title><desc>Research questions, observed tests and consequences. Status belongs to each branch.</desc>
+<rect x="-160" y="-40" width="1920" height="1080" fill="#f5f2eb"/>
+<rect width="1600" height="1000" fill="#f5f2eb"/>
+<text x="60" y="88" font-family="Segoe UI, sans-serif" font-size="43" font-weight="700" fill="#172c3c">Which learned departures earn deployment?</text>
+<text x="60" y="130" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Research questions, observed tests and consequences. Status belongs to each branch.</text>
+<rect x="60" y="175" width="470" height="250" rx="16" fill="#e2ebf1"/>
+<text x="84" y="221" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700" fill="#172c3c">SUBMITTED / Propose</text>
+<text x="84" y="269" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">One rule/priority baseline</text>
+<text x="84" y="304" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">+ one replay-trained alternative</text>
+<text x="84" y="339" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Target-aware legal-option tokens</text>
+<text x="84" y="374" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">8 attention layers; width 512</text>
+<rect x="565" y="175" width="470" height="250" rx="16" fill="#e2ebf1"/>
+<text x="589" y="221" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700" fill="#172c3c">SUBMITTED / Compare</text>
+<text x="589" y="269" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Search eligible disagreements</text>
+<text x="589" y="304" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Ten-reference belief gate: 0.95</text>
+<text x="589" y="339" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">12 paired hidden-state samples</text>
+<text x="589" y="374" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Both actions share each world</text>
+<rect x="1070" y="175" width="470" height="250" rx="16" fill="#e2ebf1"/>
+<text x="1094" y="221" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700" fill="#172c3c">SUBMITTED / Execute</text>
+<text x="1094" y="269" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Override only for a higher mean</text>
+<text x="1094" y="304" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Tie/incomplete: keep rule action</text>
+<text x="1094" y="339" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Reconcile actual resource use</text>
+<text x="1094" y="374" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Never book an unplayed action</text>
+<text x="532" y="312" font-family="Segoe UI, sans-serif" font-size="32" font-weight="700" fill="#172c3c">&gt;</text>
+<text x="1037" y="312" font-family="Segoe UI, sans-serif" font-size="32" font-weight="700" fill="#172c3c">&gt;</text>
+<rect x="60" y="460" width="470" height="250" rx="16" fill="#f4dfc6"/>
+<text x="84" y="506" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700" fill="#172c3c">REJECTED / Broader search</text>
+<text x="84" y="554" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Favorable 80-pair screen</text>
+<text x="84" y="589" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Internal p95 / max limits: 12.5 / 20 s</text>
+<text x="84" y="624" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Observed: 13.71 / 46.73 s</text>
+<text x="84" y="659" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Runtime criteria failed</text>
+<rect x="565" y="460" width="470" height="250" rx="16" fill="#f4dfc6"/>
+<text x="589" y="506" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700" fill="#172c3c">REJECTED / Richer imitation</text>
+<text x="589" y="554" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Held-out accuracy: +2.36 points</text>
+<text x="589" y="589" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Dragapult: -3.046 points</text>
+<text x="589" y="624" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Predeclared loss limit: 3.0 points</text>
+<text x="589" y="659" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Gameplay testing not opened</text>
+<rect x="1070" y="460" width="470" height="250" rx="16" fill="#dbece3"/>
+<text x="1094" y="506" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700" fill="#172c3c">LATER / Recurrent learning</text>
+<text x="1094" y="554" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Same deck; different baseline</text>
+<text x="1094" y="589" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">5,000 paired local evaluations</text>
+<text x="1094" y="624" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">+0.2686 reward vs imitation</text>
+<text x="1094" y="659" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Not a hybrid-comparison result</text>
+<rect x="60" y="750" width="1480" height="110" rx="16" fill="#fff" stroke="#bec9cc" stroke-width="2"/>
+<text x="85" y="801" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700" fill="#172c3c">PROPOSED: profile -&gt; parallel worlds -&gt; test learned proposals -&gt; wider opponents / BO3</text>
+<text x="85" y="845" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Adopt only after prospective strength, adverse-matchup, legality and runtime criteria pass.</text>
+<text x="60" y="918" font-family="Segoe UI, sans-serif" font-size="23" font-weight="400" fill="#172c3c">Examples selected retrospectively. Search limits are internal; later RL used an amended training schedule.</text>
+<text x="60" y="955" font-family="Segoe UI, sans-serif" font-size="23" font-weight="400" fill="#172c3c">RL reward is loss/draw/win = -1/0/+1. Established methods; no claim of algorithmic firsts or H100 gains.</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="-160 -40 1920 1080" role="img">
+<title>Mega Lucario: develop the hand, prepare the next attacker</title><desc>One 60-card list: 16 Pokemon + 31 Trainers + 13 Basic Fighting Energy. Roles are not ratio-optimality proofs.</desc>
+<rect x="-160" y="-40" width="1920" height="1080" fill="#f5f2eb"/>
+<rect width="1600" height="1000" fill="#f5f2eb"/>
+<text x="60" y="88" font-family="Segoe UI, sans-serif" font-size="43" font-weight="700" fill="#172c3c">Mega Lucario: develop the hand, prepare the next attacker</text>
+<text x="60" y="130" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">One 60-card list: 16 Pokemon + 31 Trainers + 13 Basic Fighting Energy. Roles are not ratio-optimality proofs.</text>
+<rect x="60" y="180" width="470" height="250" rx="16" fill="#e2ebf1"/>
+<text x="84" y="226" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700" fill="#172c3c">DRAW / 2 Lunatone + 3 Solrock</text>
+<text x="84" y="274" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Solrock enables Lunatone</text>
+<text x="84" y="309" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Discard Basic Fighting Energy</text>
+<text x="84" y="344" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Draw three cards</text>
+<text x="84" y="379" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">One Lunar Cycle per turn in total</text>
+<rect x="565" y="180" width="470" height="250" rx="16" fill="#dbece3"/>
+<text x="589" y="226" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700" fill="#172c3c">REUSE / Aura Jab</text>
+<text x="589" y="274" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">130 damage</text>
+<text x="589" y="309" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Up to three Basic Fighting Energy</text>
+<text x="589" y="344" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">from discard to Benched Pokemon</text>
+<text x="589" y="379" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Prepare replacement attackers</text>
+<rect x="1070" y="180" width="470" height="250" rx="16" fill="#f4dfc6"/>
+<text x="1094" y="226" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700" fill="#172c3c">REACH / 4 Premium Power Pro</text>
+<text x="1094" y="274" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Each adds 30 damage</text>
+<text x="1094" y="309" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Mega Brave: 270 to 390</text>
+<text x="1094" y="344" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Spend extra copies to bridge a KO</text>
+<text x="1094" y="379" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Damage immunity is a veto</text>
+<text x="532" y="312" font-family="Segoe UI, sans-serif" font-size="32" font-weight="700" fill="#172c3c">&gt;</text>
+<text x="1037" y="312" font-family="Segoe UI, sans-serif" font-size="32" font-weight="700" fill="#172c3c">&gt;</text>
+<text x="60" y="474" font-family="Segoe UI, sans-serif" font-size="27" font-weight="700" fill="#172c3c">Resource flow: discard for draw -&gt; recover Energy onto the Bench -&gt; sustain knockout pressure</text>
+<rect x="60" y="505" width="470" height="250" rx="16" fill="#fff"/>
+<text x="84" y="551" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700" fill="#172c3c">ACCESS / Find the right card</text>
+<text x="84" y="599" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Ultra Ball can fetch the Mega</text>
+<text x="84" y="634" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Poke Pad: no Rule-Box Pokemon</text>
+<text x="84" y="669" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Fighting Gong: Basic Fighting</text>
+<text x="84" y="704" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Pokemon or Basic Fighting Energy</text>
+<rect x="565" y="505" width="470" height="250" rx="16" fill="#fff"/>
+<text x="589" y="551" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700" fill="#172c3c">POSITION / Target and rotate</text>
+<text x="589" y="599" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Boss&#x27;s Orders or Hariyama: gust</text>
+<text x="589" y="634" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Hariyama is normally one Prize</text>
+<text x="589" y="669" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Mega Lucario is three Prizes</text>
+<text x="589" y="704" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Retreat + Switch clears move lock</text>
+<rect x="1070" y="505" width="470" height="250" rx="16" fill="#fff"/>
+<text x="1094" y="551" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700" fill="#172c3c">RECOVER / Preserve options</text>
+<text x="1094" y="599" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Wally: Energy to hand if healed</text>
+<text x="1094" y="634" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Wally does not clear move lock</text>
+<text x="1094" y="669" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Cape adds 100 HP if unsuppressed</text>
+<text x="1094" y="704" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">Judge / Lillie&#x27;s renew hands</text>
+<text x="60" y="844" font-family="Segoe UI, sans-serif" font-size="24" font-weight="400" fill="#172c3c">Mega Brave cannot repeat next turn; Aura Jab remains available. Damage ladder: 270 / 300 / 330 / 360 / 390.</text>
+<text x="60" y="895" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">The knockout-rule ablation is separate evidence: +3.833 points in 4,800 local Archaludon pairs.</text>
+<text x="60" y="938" font-family="Segoe UI, sans-serif" font-size="25" font-weight="400" fill="#172c3c">That one-opponent result does not isolate the hybrid gain or establish globally optimal card counts.</text>
+</svg>
