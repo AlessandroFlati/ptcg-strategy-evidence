@@ -33,7 +33,7 @@ The English report remains the primary argument; external material is optional. 
 
 This edition supplies explanations and aggregate arithmetic, not a runnable agent, raw-data release, full independent gameplay reproduction or a new official score. It contains no card artwork, replays, credentials, model weights or competition binaries. Pokemon names identify the relevant game objects; their rights are not claimed or open-sourced by this companion. Existing source-specific permissions and attribution remain applicable.
 
-The [version record](VERSION.json) binds these documents to the English source. The [gallery guide](GALLERY.md) identifies two complementary diagrams and preserves their explanatory captions. Internal audit ledgers and raw research records are not included in this release.
+The [version record](VERSION.json) binds these documents to the English source. The [gallery guide](GALLERY.md) opens with an introduction to the argument, followed by two detailed diagrams with explanatory captions. Internal audit ledgers and raw research records are not included in this release.
 
 The tables and diagnostics reuse retained records. The historical evaluation guide already documents the hybrid's weighted and pooled summaries; they are not new discoveries or new games in this edition. The later learner's contingency table, fixed-opponent uncertainty check and implementation details are provided in [Learning](LEARNING.md).
 
@@ -51,7 +51,7 @@ For the deck question, start with [access, timing and competing resources](RESEA
 | Repeat the original gameplay or train from raw data | Requires permitted simulator, exact policies, weights, records and environment | These are not distributed in this companion; do not promise public end-to-end reproduction |
 | Assess prospective hardware or BO3 value | Explicit comparison arms and acceptance contracts in Roadmap | Designs are not measured gains or evidence of resource access |
 
-For a quick review, read the main argument and its three tables first. Use the research-decision gallery to inspect the selection logic and the deck-resource gallery for card interactions. The architecture map answers a deeper model question without adding another competing figure. Follow the arithmetic only when checking a particular result. This reading order keeps optional evidence from becoming a prerequisite for understanding the submission.
+For a quick review, use the opening gallery overview to orient yourself, then read the main argument and its three tables. Use the research-decision diagram to inspect the selection logic and the deck-resource diagram for card interactions. The architecture map answers a deeper model question without adding another competing figure. Follow the arithmetic only when checking a particular result. This reading order keeps optional evidence from becoming a prerequisite for understanding the submission.
 
 The shortest evidence-to-next-test route is: the main report's complete-game confirmation supports the submitted combination locally; Learning's separate result supports its recurrent learner over that learner's own parent; Roadmap tests whether replacing only the submitted proposal source connects those findings. The missing connection is a controlled integration result, not another way of restating the two existing gains.
 

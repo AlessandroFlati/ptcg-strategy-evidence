@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title description">
+  <title id="title">Mega Lucario: learning alternatives, testing decisions</title>
+  <desc id="description">An introduction to the writeup. A fixed deck creates competing uses for cards and Energy. The submitted agent compares rule-based and replay-trained proposals in paired simulations before acting. Local hybrid confirmation, separate later reinforcement learning and proposed Round 2 work have different evidence scopes.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10" fill="none" stroke="#527181" stroke-width="2"/></marker>
+    <style>
+      text { font-family: 'Segoe UI', sans-serif; fill: #172c3c; }
+      .eyebrow { font-size: 23px; font-weight: 700; letter-spacing: 2px; }
+      .title { font-size: 62px; font-weight: 700; letter-spacing: -1px; }
+      .intro { font-size: 30px; }
+      .card-title { font-size: 31px; font-weight: 700; }
+      .body { font-size: 27px; }
+      .label { font-size: 22px; font-weight: 700; letter-spacing: 1px; }
+      .result { font-size: 33px; font-weight: 700; }
+      .detail { font-size: 25px; }
+      .connector { fill: none; stroke: #527181; stroke-width: 3; }
+    </style>
+  </defs>
+  <rect width="1920" height="1080" fill="#f5f2eb"/>
+  <rect x="112" y="67" width="42" height="7" rx="3.5" fill="#227366"/>
+  <text x="172" y="80" class="eyebrow">POKEMON TCG AI / WRITEUP OVERVIEW</text>
+  <text x="112" y="161" class="title">Mega Lucario: learning alternatives,</text>
+  <text x="112" y="230" class="title">testing decisions</text>
+  <text x="112" y="284" class="intro">One fixed deck creates competing uses for cards and Energy.</text>
+  <text x="112" y="324" class="intro">We test when a learned alternative should replace its rule-based choice.</text>
+
+  <rect x="112" y="361" width="1696" height="323" rx="20" fill="#ffffff" stroke="#d9dfde" stroke-width="2"/>
+  <text x="148" y="401" class="label">THE SUBMITTED AGENT</text>
+  <rect x="148" y="424" width="453" height="100" rx="13" fill="#e2ebf1"/>
+  <text x="170" y="465" class="card-title">Deck-specific rules</text>
+  <text x="170" y="502" class="body">Choose a baseline action</text>
+  <rect x="148" y="544" width="453" height="100" rx="13" fill="#dbece3"/>
+  <text x="170" y="585" class="card-title">Replay-trained network</text>
+  <text x="170" y="622" class="body">Propose a legal alternative</text>
+  <path d="M601 474 H636 Q654 474 654 492 V522 Q654 536 671 536 H707" class="connector" marker-end="url(#arrow)"/>
+  <path d="M601 594 H636 Q654 594 654 576 V550 Q654 536 671 536" class="connector"/>
+
+  <rect x="720" y="424" width="490" height="220" rx="13" fill="#eef2f3"/>
+  <text x="748" y="466" class="card-title">Compare their proposals</text>
+  <text x="748" y="509" class="body">For eligible disagreements:</text>
+  <text x="748" y="547" class="body">simulate both moves in the same</text>
+  <text x="748" y="585" class="body">12 sampled hidden game states.</text>
+  <path d="M1210 536 H1270" class="connector" marker-end="url(#arrow)"/>
+
+  <rect x="1284" y="424" width="488" height="220" rx="13" fill="#e2ebf1"/>
+  <text x="1310" y="466" class="card-title">Play; keep state consistent</text>
+  <text x="1310" y="509" class="body">Keep the rule choice unless</text>
+  <text x="1310" y="547" class="body">the alternative scores higher.</text>
+  <text x="1310" y="600" class="body">Record only resources used.</text>
+
+  <rect x="112" y="711" width="1696" height="65" rx="13" fill="#172c3c"/>
+  <text x="146" y="753" style="font-size:27px;font-weight:700;fill:#ffffff">OUR RESEARCH LOOP</text>
+  <text x="503" y="753" style="font-size:29px;fill:#ffffff">Hypothesis</text>
+  <text x="690" y="753" style="font-size:27px;fill:#a8cfc2">-&gt;</text>
+  <text x="755" y="753" style="font-size:29px;fill:#ffffff">Failure criterion</text>
+  <text x="1006" y="753" style="font-size:27px;fill:#a8cfc2">-&gt;</text>
+  <text x="1076" y="753" style="font-size:29px;fill:#ffffff">Test</text>
+  <text x="1191" y="753" style="font-size:27px;fill:#a8cfc2">-&gt;</text>
+  <text x="1262" y="753" style="font-size:29px;fill:#ffffff">Retain or reject</text>
+
+  <rect x="112" y="805" width="548" height="188" rx="15" fill="#e2ebf1"/>
+  <text x="137" y="841" class="label">LOCAL HYBRID CONFIRMATION</text>
+  <text x="137" y="887" class="result">+12.59 percentage points</text>
+  <text x="137" y="928" class="detail">500 matched pairs vs the same-deck</text>
+  <text x="137" y="965" class="detail">rule/priority baseline; weighted result.</text>
+
+  <rect x="686" y="805" width="548" height="188" rx="15" fill="#dbece3"/>
+  <text x="711" y="841" class="label">SEPARATE LATER LEARNING</text>
+  <text x="711" y="887" class="result">45.68% vs 32.28% wins</text>
+  <text x="711" y="928" class="detail">5,000 local pairs vs its own imitation</text>
+  <text x="711" y="965" class="detail">baseline; not a test against the hybrid.</text>
+
+  <rect x="1260" y="805" width="548" height="188" rx="15" fill="#f4dfc6"/>
+  <text x="1285" y="841" class="label">PROPOSED ROUND 2 WORK</text>
+  <text x="1285" y="887" style="font-size:31px;font-weight:700">Test the value of more compute</text>
+  <text x="1285" y="928" class="detail">GPU/CPU profiling, stronger proposals,</text>
+  <text x="1285" y="965" class="detail">and matched-budget comparisons.</text>
+
+  <text x="112" y="1040" class="detail">Local tests do not establish field superiority. Additional hardware gains remain unmeasured.</text>
+</svg>

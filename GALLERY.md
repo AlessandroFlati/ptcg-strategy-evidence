@@ -1,6 +1,14 @@
-# Gallery: research decisions and deck resources
+# Gallery: overview, research decisions and deck resources
 
-These original diagrams complement the main report's inline decision trace. They distinguish deployed mechanisms, rejected alternatives and separate later learning. The wider canvas preserves all labels in Kaggle's 16:9 preview. The underlying diagram text and geometry are unchanged.
+These original diagrams introduce the argument and complement the main report's inline decision trace. Read the overview first, then inspect research decisions and deck resources. All three use a 16:9 canvas.
+
+## Start here: the question, the system and the evidence
+
+![The submitted Mega Lucario agent compares deck-specific rule and replay-trained proposals in paired simulations before acting. Below, three panels separate local hybrid confirmation, later learning against its own imitation baseline, and proposed Round 2 tests.](overview.png)
+
+One fixed deck creates competing uses for cards and Energy. The submitted hybrid asks whether a learned alternative should replace a rule-based choice, compares eligible disagreements in the same twelve sampled hidden states, and keeps its resource bookkeeping consistent with the action actually played. The research loop summarizes the writeup's hypothesis, failure-criterion, test and decision examples; those examples were selected retrospectively. The +12.59-point figure rounds the +12.587-point, historically weighted local confirmation result from 500 pairs against the same-deck rule/priority baseline (paired SE 4.026 points). The separate later reinforcement learner's 45.68% versus 32.28% win rates come from 5,000 equally weighted local pairs against its own imitation baseline. These are different comparisons, not a ranking of the two systems. The later training schedule was extended after development results; checkpoint selection preceded the final evaluation. Additional-compute interventions are proposed, with no measured H100 gain. Details and limitations remain in the main report and the linked evidence pages.
+
+[Full-resolution image](overview.png) | [Editable vector](overview.svg).
 
 ## Research questions and adoption decisions
 

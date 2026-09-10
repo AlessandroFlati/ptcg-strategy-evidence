@@ -8,7 +8,7 @@ The submission link is access-dependent: our unauthenticated check returned 404.
 
 Start with the writeup: it contains the complete main report. This optional companion explains the submitted integration, the separate post-submission recurrent learner, and the tests proposed for further development. It also locates original sources and exposes aggregate evaluation arithmetic. It is not an agent release or a runnable reproduction package; no assumption is made about whether judges will consult it.
 
-The current report is **Mega Lucario: Learning Alternatives, Testing Decisions**. [Read the Japanese translation / 日本語訳](WRITEUP_JA.md), the [two explanatory gallery diagrams](GALLERY.md), or the [detailed reading guide and glossaries](GUIDE.md). [VERSION.json](VERSION.json) binds this edition to the submitted English text. The Japanese translation was AI-produced and checked for numerical and semantic alignment; it has not received native-language review, and English remains authoritative.
+The current report is **Mega Lucario: Learning Alternatives, Testing Decisions**. [Read the Japanese translation / 日本語訳](WRITEUP_JA.md), the [introductory overview and two detailed gallery diagrams](GALLERY.md), or the [detailed reading guide and glossaries](GUIDE.md). [VERSION.json](VERSION.json) binds this edition to the submitted English text. The Japanese translation was AI-produced and checked for numerical and semantic alignment; it has not received native-language review, and English remains authoritative.
 
 ## Find the relevant material
 
