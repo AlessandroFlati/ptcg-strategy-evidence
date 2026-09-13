@@ -1,11 +1,11 @@
 {
   "schema_version": "strategy-reference-companion/v1",
-  "edition": "7",
+  "edition": "8",
   "scope": "Participant-authored explanations, own aggregate results, original diagrams and AI-produced Japanese translation; no executable or raw-data release",
   "writeup_url": "https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/writeups/new-writeup-1783092659035",
-  "writeup_body_sha256": "c658f28f3648001ad78cae31d0ffb34b6bb0dbb7814581e72d5e23c3fc397323",
+  "writeup_body_sha256": "9f0ecc9c05039a9782e95e455b26eab7d4f9f647ab8cf5681b9b901a2792e9fe",
   "writeup_access_note": "The owner-account submission was verified; the companion audit received HTTP 404 without authentication. Public access is not established.",
-  "writeup_verified_at_utc": "2026-09-10T11:23:27.675Z",
+  "writeup_verified_at_utc": "2026-09-13T18:22:14.730Z",
   "submitted_agent_archive_sha256": "7605b63b59449618038c7c13b963dfc4e8609a0978610ac7a81f83071d32b7e9",
   "confirmation_analysis_sha256": "4151471ff0e2ee12710f0490eec65abea612dc2187df3d639e2e8e204db4eae7",
   "confirmation_design_signature_sha256": "59fbee000b0881f1377f7ae2fe06bbbfb3131a6e9bb28432db3d805dd8e0e7a1",
@@ -38,7 +38,7 @@
     "english_authoritative": true,
     "ai_produced_and_reviewed": true,
     "native_language_review": false,
-    "translated_body_unchanged_from_reviewed_candidate": true
+    "revision_scope": "Simulation timing, damage-corrected baseline, percentile terminology and corrected inline image synchronized with the English revision; numerical claims unchanged."
   },
   "later_lucario_learning": {
     "checkpoint_sha256": "c813a3e080cfd47edd2584f24f30bf501d9cb91a37dcb72b75508a606b1436a2",
@@ -47,22 +47,27 @@
     "status": "Separate post-submission evaluation against its own replay-imitation parent; not a submitted-hybrid comparison"
   },
   "file_sha256": {
-    "EVALUATION.md": "24b7c15d624e4550d72ab494b1a700cc4893bb5c09c01551046a647942b07196",
-    "GALLERY.md": "937a91afd917f339b29e91ebec680f9f1d1fc20fec4b4910398896f7aa933724",
+    "EVALUATION.md": "8b4fd3e22b91727f14c5fbb89631ded0bfdb8208c12b9e4adf8e069ffdf56584",
+    "GALLERY.md": "ffff1976d672dfd6098721c73690674fb1d0ed82317555552d6b4796a75999b2",
     "GUIDE.md": "e853a6acee19b80e98dd27dab2efd3492d508fcc266630ad43500a3398463383",
-    "LEARNING.md": "9e0d952c4f6caf39f86c8232db8b2c54d7d96ab9d10f14b197cc6edb3feddb28",
+    "LEARNING.md": "05e6ae0caf7edd06290f07e38e423369b484185a4993145d9587ae03a5f95b05",
     "NOTICE.md": "abe838b1965da13ddbb26756d11c0849676fd66f2e09a8931c52b82ced72f3dc",
     "README.md": "093cf9c65b92fd7da31d9a97950b08c241a9a2930461fb45ea24301738b7a499",
     "REFERENCES.md": "574b60baae5f7efe5b2aa64a67b0ad677282a2fe818911a42b1b58fd540ff031",
-    "RESEARCH.md": "8168ff1b0aa59c94fc51ae213d2148f6e5526dab7dbce9ab04703f5d2c3b01e5",
+    "RESEARCH.md": "a776a9eb401bea6b54dd85850478a6d1208a8baa602d85ffaaeb30cacab609f2",
     "ROADMAP.md": "bf9dc92b9a731602b2a6ab66d93bce6fc2e65fd55742f77e1ad60bcb56d5ab55",
-    "WRITEUP_JA.md": "050971dd50b03260bb22ae9dccaf8f191a25fd8605b054d724c5c2bb31eb7753",
+    "WRITEUP_JA.md": "15aee0cef4f571f804ee59efa1354251ea959c087f21698a6a4d545ed225d0c3",
     "deck_resources.png": "a2fbd5e98b181266514bd3609a00d328ca9e479408e08f60dc42c4f0b7bc4567",
     "deck_resources.svg": "c6f6d68fbff1817921f165510cbcee955ad078e78c1de5018321b04508a609e4",
     "overview.png": "81dd4eb9e4c30d4bc06e888abe2824287a54c6c3b5f78557f1e9877c9bc24cd6",
     "overview.svg": "5c68bf6629cd3d9f499129322f86d055b2169f37af42d0f640b9ee494fbf9402",
     "research_decisions.png": "ca3008c01d074b737d68d6dbbb8124949a61b91151583554222e54946aea1054",
     "research_decisions.svg": "82edae9048654e1f2d656f499d8a6539c39128665f024f7b7f4a8477ab5e23f7",
-    "v2_trace_snake_wide.png": "7fd17402445a3941b48f812f01ae648224bc4de8105b9f44dfaa24bc8e7f11f9"
-  }
+    "v2_trace_snake_wide.png": "92888f38323a3f1111226c429108d8764f151c05303fb0ddcb095abb5cd5f8c9"
+  },
+  "edition_changes": [
+    "Opening Japanese link and clearer Simulation/baseline terminology in the main writeup.",
+    "Correct the inline figure's outcome colour and retention wording; remove the character-like icon; provide full-size access.",
+    "Align the Team Rocket Mewtwo / Spidops alias across evaluation pages and retain all measurements."
+  ]
 }

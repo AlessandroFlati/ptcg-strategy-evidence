@@ -56,7 +56,7 @@ Every row has 50 pairs, with 25 in each simulator player slot. There were no dra
 | Marnie's Grimmsnarl | 0.415816326531 | 28 | 22 | 12 / 6 / 32 |
 | Mega Lucario ex | 0.040666266507 | 38 | 34 | 9 / 5 / 36 |
 | Mega Starmie | 0.004801920768 | 46 | 48 | 0 / 2 / 48 |
-| Team Rocket Mewtwo | 0.017557022809 | 49 | 46 | 3 / 0 / 47 |
+| Team Rocket Mewtwo / Spidops | 0.017557022809 | 49 | 46 | 3 / 0 / 47 |
 
 For each row, let b and l be the better and worse counts. Because these games have no draws, mean(d) = (b - l) / 50 and sample_variance(d) = (b + l - 50 * mean(d)^2) / 49. Substitute these and w into the estimator above to recover +12.5867346939 points and SE 4.0255053039, up to the printed weights' rounding. For example, Alakazam/Dunsparce has mean(d) = (8 - 5) / 50 = 0.06 and sample variance (13 - 50 * 0.06^2) / 49. This count shortcut would need modification if paired differences could include half-points from draws.
 

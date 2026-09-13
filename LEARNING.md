@@ -70,7 +70,7 @@ The mean difference can be recovered from each arm's (wins - losses) / 5,000. On
 |---|---:|---:|
 | Archaludon | 500 | +0.192 |
 | Dudunsparce / Mega Lopunny | 500 | +0.508 |
-| Spidops | 500 | +0.300 |
+| Team Rocket Mewtwo / Spidops | 500 | +0.300 |
 | Starmie | 500 | +0.166 |
 | Alakazam | 500 | +0.332 |
 | Crustle | 500 | +0.170 |

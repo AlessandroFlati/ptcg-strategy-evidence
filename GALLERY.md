@@ -26,4 +26,8 @@ The submitted deck links hand development to attacker preparation: with Solrock 
 
 [Full-resolution image](deck_resources.png) | [Editable vector](deck_resources.svg).
 
+## Inline decision trace
+
+[Open the full-resolution decision trace](v2_trace_snake_wide.png) to inspect the labels with zoom. The selected replay compares Ultra Ball and Lillie's Determination in twelve paired hidden-state completions, not twelve independent matches. The eight green cells show 0-to-1 outcomes; the four white cells show 0-to-0 outcomes. The rule action is retained on agreement, low reference confidence, ties or incomplete terminal comparisons. This is not a universal exception-safety guarantee; [failure handling](RESEARCH.md#exact-boundaries-of-the-submitted-decision-rule) has distinct layers.
+
 The diagrams contain no official card artwork or reconstructed gameplay footage. Hypothetical future work is labelled as proposed. See the [scope notice](NOTICE.md) and [version identity](VERSION.json).
