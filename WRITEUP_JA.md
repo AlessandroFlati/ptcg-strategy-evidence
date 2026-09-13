@@ -52,7 +52,7 @@ Alessandro Flati and Roberto Mastropietro
 
 <img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F6252710%2F15cb6748237fd34a3fbff9f9172846dc%2Fv2_trace_snake_wide.png?generation=1789323432611906&amp;alt=media" width="980" style="max-width:100%;height:auto" alt="二つの提案を十二通りの終局比較にかける。リーリエの決心は8/12、ハイパーボールは0/12。">
 
-**図1。** [原寸の図](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F6252710%2F15cb6748237fd34a3fbff9f9172846dc%2Fv2_trace_snake_wide.png?generation=1789323432611906&alt=media)。十種類の参照デッキの範囲内で、相手の信念分布はマリィのオーロンゲに1.0で集中した。ハイパーボールは0/12、リーリエの決心は8/12となり、後者を実行した。後のメガブレイブと「にげる」の比較は10/12で同点となり、ルール側のワザを維持した。これらは選定した事例であり、一般的なカードの優劣や、独立した対戦の勝率を示すものではない。通常再生と計測付き再生の結果は一致した。
+**図1。** [原寸の図](https://github.com/AlessandroFlati/ptcg-strategy-evidence/blob/main/v2_trace_snake_wide.png)。十種類の参照デッキの範囲内で、相手の信念分布はマリィのオーロンゲに1.0で集中した。ハイパーボールは0/12、リーリエの決心は8/12となり、後者を実行した。後のメガブレイブと「にげる」の比較は10/12で同点となり、ルール側のワザを維持した。これらは選定した事例であり、一般的なカードの優劣や、独立した対戦の勝率を示すものではない。通常再生と計測付き再生の結果は一致した。
 
 ## 完全な対戦による評価と公式成績
 
